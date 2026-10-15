@@ -1,0 +1,12 @@
+{
+  "name": "screenshare-signaling-server",
+  "version": "1.0.0",
+  "description": "Minimal signaling server for peer-to-peer screen sharing (relays handshake only, never video)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
